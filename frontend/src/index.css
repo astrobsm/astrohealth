@@ -1,0 +1,494 @@
+/* Professional health-related theme */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light green for a health-related theme */
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2e7d32; /* Dark green for headings */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.login-form input,
+.login-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #1b5e20; /* Darker green on hover */
+}
+
+.toggle-link {
+    color: #2e7d32;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.toggle-link:hover {
+    color: #1b5e20;
+}
+
+.patient-management-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.management-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1 1 calc(30% - 20px); /* Make buttons responsive */
+    max-width: 200px; /* Limit button width */
+    text-align: center;
+}
+
+.management-button:hover {
+    background-color: #1b5e20;
+}
+
+.blue-button {
+    background-color: #007bff; /* Blue color for the button */
+    color: #ffffff;
+}
+
+.blue-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.register-patient-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.register-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.register-form button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button[type='submit'] {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.register-form button[type='submit']:hover {
+    background-color: #1b5e20;
+}
+
+.back-button {
+    background-color: #cccccc;
+    color: #333333;
+}
+
+.back-button:hover {
+    background-color: #999999;
+}
+
+.register-hospital-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.register-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.register-form button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button[type='submit'] {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.register-form button[type='submit']:hover {
+    background-color: #1b5e20;
+}
+
+.back-button {
+    background-color: #cccccc;
+    color: #333333;
+}
+
+.back-button:hover {
+    background-color: #999999;
+}
+
+.patients-list-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.patients-table th,
+.patients-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.patients-table th {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.patients-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.homecare-patients-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.homecare-patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.homecare-patients-table th,
+.homecare-patients-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.homecare-patients-table th {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.homecare-patients-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.in-patients-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.in-patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.in-patients-table th,
+.in-patients-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.in-patients-table th {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.in-patients-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.out-patients-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.out-patients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.out-patients-table th,
+.out-patients-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.out-patients-table th {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.out-patients-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+    background-color: transparent; /* Ensure transparent background */
+}
+
+.track-record-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.track-record-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.track-record-form label {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.track-record-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.track-record-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.track-record-form button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.track-record-form button[type='submit'] {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+.track-record-form button[type='submit']:hover {
+    background-color: #1b5e20;
+}
+
+.uploads-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.uploads-section h3 {
+    color: #2e7d32;
+}
+
+.uploads-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.circular-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.circular-button:hover {
+    background-color: #0056b3;
+}
+
+.track-record-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.track-record-button:hover {
+    background-color: #0056b3;
+}
+
+.phase-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.phase-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.phase-button:hover {
+    background-color: #0056b3;
+}
