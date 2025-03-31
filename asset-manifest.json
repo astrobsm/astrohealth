@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/astrohealth/static/css/main.b23363d1.css",
+    "main.js": "/astrohealth/static/js/main.44da8a1f.js",
+    "static/js/239.c9086849.chunk.js": "/astrohealth/static/js/239.c9086849.chunk.js",
+    "static/js/977.e463868d.chunk.js": "/astrohealth/static/js/977.e463868d.chunk.js",
+    "static/js/732.d7a819a5.chunk.js": "/astrohealth/static/js/732.d7a819a5.chunk.js",
+    "index.html": "/astrohealth/index.html",
+    "main.b23363d1.css.map": "/astrohealth/static/css/main.b23363d1.css.map",
+    "main.44da8a1f.js.map": "/astrohealth/static/js/main.44da8a1f.js.map",
+    "239.c9086849.chunk.js.map": "/astrohealth/static/js/239.c9086849.chunk.js.map",
+    "732.d7a819a5.chunk.js.map": "/astrohealth/static/js/732.d7a819a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23363d1.css",
+    "static/js/main.44da8a1f.js"
+  ]
+}
